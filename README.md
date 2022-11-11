@@ -6,12 +6,9 @@ A simple REST API for a blog app using Node.js, Typescript, Express and Prisma
 
 - Node.js
 - Typescript
-- Apollo Server
-- GraphQL
-- PostgreSQL
-- JWT
-- Nexus
-- TypeORM
+- Express
+- Prisma
+- PostgreSQL Database
 
 ## How To Use
 
