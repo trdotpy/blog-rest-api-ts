@@ -1,16 +1,23 @@
-# blog-rest-api-ts
+# Blog App REST API
 
-A simple REST API for a blog app using Node.js, Typescript, Express and Prisma
+This is a REST API intended for a blogging application featuring full CRUD functionality.
+
+- Get all users: "/users"
+- Get all blog posts: "/blogs"
+- Get blog post by ID: "/post/:id"
+- Create users: "/user"
+- Create blog post: "/post"
+- Publish posts by ID: "/post/publish/:id"
+- Delete blog posts by ID: "/post/:id"
 
 ## Built With:
 
-- Node.js
-- Typescript
-- Express
-- Prisma
-- PostgreSQL Database
+![Prisma](https://img.shields.io/static/v1?style=for-the-badge&message=Prisma&color=222222&logo=Prisma&logoColor=06B6D4&label=) ![Node.js](https://img.shields.io/static/v1?style=for-the-badge&message=Node.js&color=222222&logo=Node.js&logoColor=4d7c0f&label=)
+![Express](https://img.shields.io/static/v1?style=for-the-badge&message=Express&color=222222&logo=Express&logoColor=bef264&label=)
+![PostgreSQL](https://img.shields.io/static/v1?style=for-the-badge&message=PostgreSQL&color=222222&logo=PostgreSQL&logoColor=0ea5e9&label=)
+![Typescript](https://img.shields.io/static/v1?style=for-the-badge&message=Typescript&color=222222&logo=Typescript&logoColor=06B6D4&label=)
 
-## How To Use
+## Install
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
@@ -33,8 +40,6 @@ $ npx ts-node src/index.ts
 # Create .env file in the root directory and fill in your credentials
 DATABASE_URL = "Database connection string"
 ```
-
----
 
 # Contact
 
